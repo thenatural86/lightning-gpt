@@ -1,4 +1,4 @@
 const HomePage = () => {
-  return <div>GPTGenius Starter Project</div>;
-};
-export default HomePage;
+  return <div>LightningGPT Starter Project</div>
+}
+export default HomePage
