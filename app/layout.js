@@ -5,9 +5,9 @@ import { ClerkProvider } from '@clerk/nextjs'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'LightningGPT',
+  title: 'Lightning-GPT',
   description:
-    'LightningGPT: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation, and more!',
+    'Lightning-GPT: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation, and more!',
 }
 
 export default function RootLayout({ children }) {
