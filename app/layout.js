@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider afterSignOutUrl='/'>
+    <ClerkProvider fallbackRedirectUrl='/'>
       <html lang='en'>
         <body className={inter.className}>
           <Providers>{children}</Providers>
