@@ -6,6 +6,7 @@ import {
   createNewTour,
 } from '@/utils/action'
 import TourInfo from './TourInfo'
+import toast from 'react-hot-toast'
 
 const NewTour = () => {
   const {
