@@ -57,7 +57,7 @@ If you can't find info on exact ${city}, or ${city} does not exist, or it's popu
     if (!tourData.tour) {
       return null
     }
-    return tourData.tour
+    return { tour: tourData.tour, tokens: response.usage.total_tokens }
   } catch (error) {
     console.log(error)
 
